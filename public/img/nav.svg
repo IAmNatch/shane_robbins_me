@@ -1,0 +1,21 @@
+<svg width="73" height="44" viewBox="0 0 73 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Component</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2355 461)">
+<g id="Component">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -2351 -457)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -2336 -438)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -2351 -421)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 65 4C 67.2091 4 69 2.20914 69 0C 69 -2.20914 67.2091 -4 65 -4L 65 4ZM 0 -4C -2.20914 -4 -4 -2.20914 -4 0C -4 2.20914 -2.20914 4 0 4L 0 -4ZM 65 -4L 0 -4L 0 4L 65 4L 65 -4Z"/>
+<path id="path1_stroke" d="M 50 4C 52.2091 4 54 2.20914 54 0C 54 -2.20914 52.2091 -4 50 -4L 50 4ZM 0 -4C -2.20914 -4 -4 -2.20914 -4 0C -4 2.20914 -2.20914 4 0 4L 0 -4ZM 50 -4L 0 -4L 0 4L 50 4L 50 -4Z"/>
+</defs>
+</svg>

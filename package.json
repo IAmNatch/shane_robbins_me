@@ -1,0 +1,29 @@
+{
+  "name": "shane-robbins-me-website",
+  "version": "1.0.0",
+  "description": "The personal website of Shane Robbins. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install & gulp build",
+    "start": "app.js"
+  },
+  "author": "Shane Robbins",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^0.125.0",
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "fast-xml-parser": "^2.9.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0",
+    "ngrok": "^2.2.25",
+    "node-sass": "^4.7.2",
+    "nunjucks": "^3.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1"
+  }
+}

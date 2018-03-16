@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>ShanesRobbins.me - {{title}}</title>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Kumar+One|Laila|Lato|Permanent+Marker" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!-- Additional Style Sheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+        <!-- Internal Style Sheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div id="site-wrapper">
+            <nav>
+                <div class="navbar">
+                    <div class="navbar-left">
+                        <a href="/"><img class="logo" src="./img/logo.png" alt=""></a>
+                    </div>
+                    <div class="navbar-right">
+                        {# <img draggable="false" class='navbar-button' src="./img/nav.svg" alt=""> #}
+                        <div class="hamburger-buttongroup">
+                            <div class='hamburger-button'></div>
+                            <div class='hamburger-button'></div>
+                            <div class='hamburger-button'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-contents">
+                    <div class="{{"nav-contents-box left " + "nav-contents-box-" + navItems[0].fileName}}">
+                        <a class='nav-mail' href={{navItems[0].url}} >
+                            <img class='svg' src={{'./svg/' + navItems[0].fileName + '.svg'}} alt="" />
+                            <p>{{navItems[0].pageTitle}}</p>
+                        </a>
+                    </div>
+                    <div class="{{"nav-contents-box right " + "nav-contents-box-" + navItems[1].className}}">
+                        <a class="{{"nav-" + navItems[1].className}}" href={{navItems[1].url}}>
+                            <p>{{navItems[1].pageTitle}}</p>
+                            <img class='svg' src={{'./svg/' + navItems[1].fileName + '.svg'}} alt="" />
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Content -->
+             {% block content %} old news {% endblock %}
+
+
+        </div>
+
+        <!-- Scripts -->
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.13.0/bodymovin.min.js"></script>
+        <script src="js/site.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.36/js/uikit.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.36/js/uikit-icons.min.js"></script> -->
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<svg width="376" height="216" viewBox="0 0 376 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>resume</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1278 -1253)">
+<g id="resume">
+<g id='purplesub' class="nav-contents-box-resume-svg">
+<use xlink:href="#path0_fill" transform="translate(-1276 1257)" fill="#FFFFFF"/>
+</g>
+<g id="Vector 3.1">
+<use xlink:href="#path1_stroke" transform="translate(-1275 1256)"/>
+</g>
+<g id="Vector 4.8">
+<use xlink:href="#path2_stroke" transform="translate(-1156 1304)"/>
+</g>
+<g id="Vector 4.9">
+<use xlink:href="#path3_stroke" transform="translate(-1241.51 1330)"/>
+</g>
+<g id="Vector 4.10">
+<use xlink:href="#path3_stroke" transform="translate(-1241.51 1351)"/>
+</g>
+<g id="Vector 4.11">
+<use xlink:href="#path4_stroke" transform="translate(-1242.76 1370)"/>
+</g>
+<g id="Vector 4.12">
+<use xlink:href="#path3_stroke" transform="translate(-1242.76 1406)"/>
+</g>
+<g id="Vector 4.14">
+<use xlink:href="#path4_stroke" transform="translate(-1242 1451)"/>
+</g>
+<g id="Vector 4.13">
+<use xlink:href="#path3_stroke" transform="translate(-1242.76 1427)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 23C 0 10.2975 10.2975 0 23 0L 348 0C 360.703 0 371 10.2975 371 23L 371 210L 0 210L 0 23Z"/>
+<path id="path1_stroke" d="M 372.5 207L 372.5 20L 367.5 20L 367.5 207L 372.5 207ZM 350 -2.5L 20 -2.5L 20 2.5L 350 2.5L 350 -2.5ZM -2.5 20L -2.5 207L 2.5 207L 2.5 20L -2.5 20ZM 124 35.5L 242 35.5L 242 30.5L 124 30.5L 124 35.5ZM 372.5 210.5L 372.5 207L 367.5 207L 367.5 210.5L 372.5 210.5ZM -2.5 207L -2.5 210.5L 2.5 210.5L 2.5 207L -2.5 207ZM 20 -2.5C 7.57359 -2.5 -2.5 7.57359 -2.5 20L 2.5 20C 2.5 10.335 10.335 2.5 20 2.5L 20 -2.5ZM 372.5 20C 372.5 7.57359 362.426 -2.5 350 -2.5L 350 2.5C 359.665 2.5 367.5 10.335 367.5 20L 372.5 20Z"/>
+<path id="path2_stroke" d="M 0 1L 127.5 1L 127.5 -1L 0 -1L 0 1Z"/>
+<path id="path3_stroke" d="M 0 1L 303.512 1L 303.512 -1L 0 -1L 0 1Z"/>
+<path id="path4_stroke" d="M 0 1L 292.317 1L 292.317 -1L 0 -1L 0 1ZM 0 18L 303.512 18L 303.512 16L 0 16L 0 18Z"/>
+</defs>
+</svg>

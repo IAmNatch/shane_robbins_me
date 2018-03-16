@@ -1,0 +1,77 @@
+{% extends "standard.njk" %}
+
+{% block content %}
+    <div id='line-animation' class='line-animation'>
+        {# <img draggable="false" src="./img/line.png" alt=""> #}
+    </div>
+
+    <section class="posts-section">
+        <div class="posts-container">
+            <p class='posts-header'>things I made</p>
+            <div class="postbox things-i-made">
+                {% for item in projects %}
+                    <div class="post">
+                        {% if loop.index0 % 2 == 0 %}
+                            <div class='post-description'>
+                                <div class="title">
+                                    {{item.title}}
+                                </div>
+                                <div class="description">
+                                    {{item.description}}
+                                    <div class="description-buttons">
+                                        <a href="{{item.gitLink}}"> <i class="fab fa-github"></i></a>
+                                        <a href="{{item.projectLink}}"><i class="fas fa-link"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='post-img'>
+                                <div>{{item.title[0]}}</div>
+                            </div>
+                        {% else %}
+                            <div class='post-img'>
+                                <div>{{item.title[0]}}</div>
+                            </div>
+                            <div class='post-description'>
+                                <div class="title">
+                                    {{item.title}}
+                                </div>
+                                <div class="description">
+                                    {{item.description}}
+                                    <div class="description-buttons">
+                                        <a href="{{item.gitLink}}"><i class="fab fa-github"></i></a>
+                                        <a href="{{item.projectLink}}"><i class="fas fa-link"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                {% else %}
+                    <div>Man's got no projects!</div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="posts-container">
+            <p class='posts-header'>things I wrote</p>
+            <div class="postbox things-i-wrote">
+                {% for item in articles %}
+                <a href="{{item.link}}">
+                    <div class="post" onclick="">
+                        <div class='post-headline'>{{item.title}}</div>
+                        {% set descriptionData = item['content:encoded']%}
+                        {# Finds first instanxe of > to know html tag is done #}
+                        {% set descriptionStart = descriptionData.search('[>]') + 1 %}
+                        {% set descriptionPeriod = descriptionData.search('[.!?]') %}
+                        {% set description = descriptionData.slice(descriptionStart, descriptionPeriod + 1) %}
+                        <div class="post-description">{{ description }}</div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+    </section>
+    <div class="endbar">
+        <a href='./contact' class="endbar-text">Get in Touch.</a>
+    </div>
+
+{% endblock %}

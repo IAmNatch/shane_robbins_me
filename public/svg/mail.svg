@@ -1,0 +1,18 @@
+<svg width="408" height="205" viewBox="0 0 408 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mail</title>
+<desc>Created using Figma</desc>
+<g id="Canvas1" transform="translate(2861 -1156)">
+<g id="mail">
+<g class='nav-contents-box-mail-svg' id="Rectangle 21">
+<use xlink:href="#path0_fill1" transform="translate(-2858 1158)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke1" transform="translate(-2858 1159)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill1" d="M 0 0L 402 0L 402 200L 0 200L 0 0Z"/>
+<path id="path1_stroke1" d="M 402 0L 404.5 0L 404.5 -2.5L 402 -2.5L 402 0ZM 0 0L 0 -2.5L -2.5 -2.5L -2.5 0L 0 0ZM 402 199L 402 201.5L 404.5 201.5L 404.5 199L 402 199ZM 0 199L -2.5 199L -2.5 201.5L 0 201.5L 0 199ZM 197 141.5L 195.542 143.531L 196.971 144.557L 198.42 143.557L 197 141.5ZM 402 -2.5L 0 -2.5L 0 2.5L 402 2.5L 402 -2.5ZM 404.5 199L 404.5 0L 399.5 0L 399.5 199L 404.5 199ZM 402 196.5L 200.5 196.5L 200.5 201.5L 402 201.5L 402 196.5ZM 0 201.5L 200.5 201.5L 200.5 196.5L 0 196.5L 0 201.5ZM -2.5 0L -2.5 199L 2.5 199L 2.5 0L -2.5 0ZM 400.58 -2.05747L 195.58 139.443L 198.42 143.557L 403.42 2.05747L 400.58 -2.05747ZM 198.458 139.469L 1.45845 -2.0305L -1.45845 2.0305L 195.542 143.531L 198.458 139.469Z"/>
+</defs>
+</svg>

@@ -1,0 +1,22 @@
+{% extends "standard.njk" %}
+{% block content %}
+    <div class='contact'>
+        <div class="contact-hero">
+            <div class="contact-hero-mail">
+                <img class="svg" src="./svg/mail-inverse.svg" alt="">
+            </div>
+            <div class="contact-hero-title">
+                Get in touch
+            </div>
+        </div>
+        <div class="contact-form">
+            <form method="POST" action="http://formspree.io/nachirobbins@gmail.com">
+                <input type="name" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="subject" name="subject" placeholder="Subject">
+                <textarea contenteditable name="message" placeholder="Write your message here!"></textarea>
+                <button type="submit">Send</button>
+             </form>
+        </div>
+    </div>
+{% endblock %}
