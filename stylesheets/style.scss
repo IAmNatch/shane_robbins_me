@@ -313,7 +313,9 @@ nav {
                             }
                             & svg, a {
                                 color: $black;
-                                fill: $black;
+                                &:focus {
+                                    color: $blue;
+                                }
                             }
                         }
                     }
