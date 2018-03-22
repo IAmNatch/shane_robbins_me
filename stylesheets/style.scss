@@ -72,6 +72,11 @@ nav {
 
         .logo {
             width: 13vh;
+            transition: 2s cubic-bezier(0.47, 0.03, 0.05, 0.95);
+            transform: skew(0deg);
+                &hover: {
+                   transform: rotateY(-314deg) skew(25deg);
+            }
         }
 
         .navbar-button {
